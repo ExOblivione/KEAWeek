@@ -170,18 +170,6 @@
 .page-search-site .chosen-container-active .chosen-choices {
   box-shadow: none; }
 
-/* line 3, ../scss/base/_kk.silent.global.scss */
-[class^="ic-"]:before, [class*=" ic-"]:before, .block-search form .form-item-search-block-form:before, .block-search form .form-actions:before, .menu-block-second_level .active li a:before, .sec-second-menu-mobile .second-menu-mobile > h2:before, .sec-second-menu-mobile .tx-content .second-menu-mobile > h3:before, .tx-content .sec-second-menu-mobile .second-menu-mobile > h3:before, .sec-second-menu-mobile .page div.messages .second-menu-mobile > h3:before, .page div.messages .sec-second-menu-mobile .second-menu-mobile > h3:before, .sec-second-menu-mobile #sliding-popup .popup-content #popup-text .second-menu-mobile > h3:before, #sliding-popup .popup-content #popup-text .sec-second-menu-mobile .second-menu-mobile > h3:before, .sec-second-menu-mobile .block-simplenews .second-menu-mobile > h3:before, .block-simplenews .sec-second-menu-mobile .second-menu-mobile > h3:before, .page-events-grid .search-results .search-result .category.with-category:before, .chosen-container-single .chosen-single div:before, .chosen-container-multi .search-field:after, .page-contact-list .search-results .search-result div.links a:before, .page-search-site .filter-close:before, .group-location h3:before, .pane-search-form .form-item-search-block-form:before, .blog-list-wrapper .views-row .views-field-view-node .field-content a:after, .ui-accordion .accordion-item .ui-accordion-header-icon:before, .group-decision .view-decision-tree-children .item-list ul .views-row .views-field-title:before, .node-decision-tree-item .kk-decision-tree-back:before, .node-event .group-practical .field-name-field-link a:after, .group-contact-info .field-name-field-link:before, .feed-icon:before, .view-id-events_list.view-display-id-panel_pane_3 .view-content .views-row .views-field-im-shared-tax-place .field-content:before, .view-id-events_list.view-display-id-panel_pane_1 .view-content .views-row .views-field-im-shared-tax-place .field-content:before, .view-id-events_list.view-display-id-panel_pane_2 .view-content .views-row .views-field-im-shared-tax-place .field-content:before, .pane-bundle-banner-login-pane .group-login-box .field-name-field-link a:after {
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
 /* line 17, ../scss/base/_kk.silent.global.scss */
 .tx-ic {
   position: absolute !important;
@@ -222,7 +210,8 @@ h1, h2, .tx-content h3, .page div.messages h3, #sliding-popup .popup-content #po
 
 /* HTML5 display-role reset for older browsers */
 /* line 34, ../scss/base/_kk.base.scss */
-article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
   display: block; }
 
 /* line 37, ../scss/base/_kk.base.scss */
@@ -1266,10 +1255,6 @@ a:hover {
 .ic-search:before {
   content: "\e604"; }
 
-/* line 332, ../scss/base/_kk.typography.scss */
-.ic-search2:before, .block-search form .form-item-search-block-form:before, .block-search form .form-actions:before, .pane-search-form .form-item-search-block-form:before {
-  content: "\e605"; }
-
 /* line 336, ../scss/base/_kk.typography.scss */
 .ic-heart:before {
   content: "\e606"; }
@@ -1578,6 +1563,7 @@ a:hover {
   background-color: #ebebeb;
   background-repeat: no-repeat;
   background-position: center top;
+  background-image: url("//ihcph.kk.dk/sites/ihcph.kk.dk/files/footer_inkl_logo_0_0.png");
   background-position: center bottom; }
   /* line 184, ../scss/page/_kk.page.scss */
   .sec-footer .sec-inner {
@@ -3356,7 +3342,7 @@ button {
 
 /* line 116, ../scss/page/_kk.form.scss */
 fieldset.filter-wrapper {
-  padding: 1.33333em 0; }
+  padding: 1.33333em ; }
 
 /* line 119, ../scss/page/_kk.form.scss */
 .text-format-wrapper .form-item {

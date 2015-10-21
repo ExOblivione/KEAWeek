@@ -26,7 +26,6 @@
     <link type="text/css" rel="stylesheet" href="./Content/css_NXti8f1KG_3PtT4IIc0U3jDor0MbcpVCy5HvGkHBurk.css" media="screen">
     <link type="text/css" rel="stylesheet" href="./Content/css_1EEb381NQgnHG9UcOqDzMBGM5XiH5jN41bswgqcwD7s.css" media="all">
     <link type="text/css" rel="stylesheet" href="./Content/css_9fm8Wm1DpRj4naf-M4msEQ5zbpULFkSvuG1gnmsd1kQ.css" media="all">
-    <link type="text/css" rel="stylesheet" href="~/Content/style.css" />
     <style type="text/css" media="all">
         <!-- /*--><![CDATA[/*><!--*/
         #sliding-popup.sliding-popup-top {
@@ -41,6 +40,7 @@
     </style>
     <link type="text/css" rel="stylesheet" href="./Content/css_Yw_ItX7CvjVLFBjFkdXtqvp3BW-LFeTYcvCqqUuI9Og.css" media="all">
     <link type="text/css" rel="stylesheet" href="./Content/kkms.style.css" media="all">
+    <link type="text/css" rel="stylesheet" href="~/Content/style.css" />
     <link type="text/css" rel="stylesheet" href="./Content/css_SGUt0AlhHb7oVMZHoF04t7A0CbMMmw9Iz_fK2Xf3g9w.css" media="all">
     <link type="text/css" rel="stylesheet" href="./Content/css_B2cQntCB09Tw2jRvNa1_umUcHyQahI_pCWNjlB60s0Y.css" media="print">
     <!--[if IE]>
@@ -52,22 +52,24 @@
     <!--[if lte IE 8]>
       <script src="/sites/all/themes/kkms_theme/js/libraries/respond.min.js"></script>
       <![endif]-->
-    <div class="fit-vids-style" id="fit-vids-style" style="display: none;">­
-    <style>
-        .fluid-width-video-wrapper {
-            width: 100%;
-            position: relative;
-            padding: 0;
-        }
-
-            .fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
-                position: absolute;
-                top: 0;
-                left: 0;
+    <div class="fit-vids-style" id="fit-vids-style" style="display: none;">
+        ­
+        <style>
+            .fluid-width-video-wrapper {
                 width: 100%;
-                height: 100%;
+                position: relative;
+                padding: 0;
             }
-    </style></div>
+
+                .fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+        </style>
+    </div>
     <script src="./Scripts/jquery.fitvids.js"></script>
     <script type="text/javascript" src="./Scripts/jquery.js"></script>
     <script type="text/javascript">
@@ -144,7 +146,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                         <div>
                             <h2 class="element-invisible">Search form</h2>
                             <div class="form-item form-type-textfield form-item-search-block-form">
-                                <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+                                <label class="element-invisible">Search </label>
                                 <input title="Enter the terms you wish to search for." class="apachesolr-autocomplete unprocessed form-text form-autocomplete placeholder" placeholder="Enter your search" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" autocomplete="off">
                             </div>
                             <div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit"></div><input type="hidden" name="form_build_id" value="form-pClDkyQ8aH8zoj30B0hCG2azmah3870ZgYxCtlyEJvE">
@@ -186,10 +188,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="panelizer-view-mode node node-full node-section-page node-1">
                     <section>
-                        <div class="reg-top-menu  ">
+                        <div class="reg-top-menu">
                             <div class="reg-inner">
                                 <div class="reg-inner-regions">
                                     <div class="reg-top-menu-left">
@@ -809,10 +811,35 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                         <p><a href="https://ihcph.kk.dk/node/67">Meet the International House</a></p>
                     </div>
                 </div>
-                <div></div>
+                <div></div><div id="block-follow-site" class="block block-follow bl-follow">
+
+                    
+                </div>
+                <script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+/*<![CDATA[*/
+/* Copyright Netminers 2002-2015 */
+var $netminers = $netminers || [];
+(function () {
+	var netminers = document.createElement('script');
+	netminers.type = 'text/javascript';
+	netminers.async = true;
+	netminers.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//kk.netminers.dk/script/5E597DCD-4A2F-41BF-8847-97FA5E299355/';
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(netminers);
+})();
+/*]]]]><![CDATA[>*/
+
+//--><!]]>
+                </script>
             </div>
         </section>
-        
+        <!-- /.sec-footer -->
+        <footer class="sec sec-bottom">
+            <div class="sec-inner">
+            </div>
+        </footer><!-- /.sec-footer -->
+        <script type="text/javascript" src="./ihcph.kk.dk_files/js_Hj7MlGoxyYvMWMICITw9x4fTDQBlqiaEkC_Ub-p6q-E.js"></script>
     </div>
 
 </body>
