@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* line 263, ../scss/mixins/_kk.mixin.style.scss */
 .ctools-auto-submit-full-form .chosen-container, .page-events-grid .chosen-container,
 .page-news-list .chosen-container,
@@ -222,8 +222,7 @@ h1, h2, .tx-content h3, .page div.messages h3, #sliding-popup .popup-content #po
 
 /* HTML5 display-role reset for older browsers */
 /* line 34, ../scss/base/_kk.base.scss */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
   display: block; }
 
 /* line 37, ../scss/base/_kk.base.scss */
@@ -1579,7 +1578,6 @@ a:hover {
   background-color: #ebebeb;
   background-repeat: no-repeat;
   background-position: center top;
-  background-image: url("//ihcph.kk.dk/sites/ihcph.kk.dk/files/footer_inkl_logo_0_0.png");
   background-position: center bottom; }
   /* line 184, ../scss/page/_kk.page.scss */
   .sec-footer .sec-inner {

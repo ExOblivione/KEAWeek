@@ -272,6 +272,19 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\COLOURBOX2761562 %281%29.jpg" />
+    <Content Include="Images\Guest Hotel.jpg" />
+    <Content Include="Images\IH, front, nat_1.jpg" />
+    <Content Include="Images\IHC, udefra, foto_0.JPG" />
+    <Content Include="Images\link til kk.dk english.png" />
+    <Content Include="Images\logo IHC sort .png" />
+    <Content Include="Images\logo-white.png" />
+    <Content Include="Images\logo__CPH_POST.jpg" />
+    <Content Include="Images\Move to DK app slide.png" />
+    <Content Include="Images\Organizations and companies.jpg" />
+    <Content Include="Images\samarbejde, ny_0.png" />
+    <Content Include="Images\Udklip.PNG" />
+    <Content Include="Images\wonderful_cph_logo.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -304,6 +317,7 @@
     <Content Include="Scripts\js_B7W58MaYKTw-AzHOfJ5CkiY3nUXLEU3eP-cbUojzEvE.js" />
     <Content Include="Scripts\js_BsmLz4eyBKqWiPToabyPukJE-mTAwDl5exoozCdarh0.js" />
     <Content Include="Scripts\js_Btaq4foo9TSt7SVtt1Xgqk46TyqPNX_Js0PDuHNOUho.js" />
+    <Content Include="Scripts\js_Hj7MlGoxyYvMWMICITw9x4fTDQBlqiaEkC_Ub-p6q-E.js" />
     <Content Include="Scripts\js_J_ABpmp4EUKO-4tWIgNrk6Rr8ZH9u1VWMln-06ueVmk.js" />
     <Content Include="Scripts\js_vTilzW4eFw9EDoJbJk7bBX9JWuASrd-pM_zksu_SZWw.js" />
     <Content Include="Scripts\js_w7uVD8bBWfh2VJ5KdjPpb0SDOvhak58LFSLk2Z13nTM.js" />
