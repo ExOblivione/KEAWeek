@@ -256,9 +256,19 @@
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
+    <Content Include="Content\1.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css_1EEb381NQgnHG9UcOqDzMBGM5XiH5jN41bswgqcwD7s.css" />
+    <Content Include="Content\css_9fm8Wm1DpRj4naf-M4msEQ5zbpULFkSvuG1gnmsd1kQ.css" />
+    <Content Include="Content\css_B2cQntCB09Tw2jRvNa1_umUcHyQahI_pCWNjlB60s0Y.css" />
+    <Content Include="Content\css_NXti8f1KG_3PtT4IIc0U3jDor0MbcpVCy5HvGkHBurk.css" />
+    <Content Include="Content\css_rEI_5cK_B9hB4So2yZUtr5weuEV3heuAllCDE6XsIkI.css" />
+    <Content Include="Content\css_SGUt0AlhHb7oVMZHoF04t7A0CbMMmw9Iz_fK2Xf3g9w.css" />
+    <Content Include="Content\css_Yw_ItX7CvjVLFBjFkdXtqvp3BW-LFeTYcvCqqUuI9Og.css" />
+    <Content Include="Content\kkms.style.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -289,15 +299,25 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery.fitvids.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\js_B7W58MaYKTw-AzHOfJ5CkiY3nUXLEU3eP-cbUojzEvE.js" />
+    <Content Include="Scripts\js_BsmLz4eyBKqWiPToabyPukJE-mTAwDl5exoozCdarh0.js" />
+    <Content Include="Scripts\js_Btaq4foo9TSt7SVtt1Xgqk46TyqPNX_Js0PDuHNOUho.js" />
+    <Content Include="Scripts\js_J_ABpmp4EUKO-4tWIgNrk6Rr8ZH9u1VWMln-06ueVmk.js" />
+    <Content Include="Scripts\js_vTilzW4eFw9EDoJbJk7bBX9JWuASrd-pM_zksu_SZWw.js" />
+    <Content Include="Scripts\js_w7uVD8bBWfh2VJ5KdjPpb0SDOvhak58LFSLk2Z13nTM.js" />
     <Content Include="Scripts\knockout-2.3.0.debug.js" />
     <Content Include="Scripts\knockout-2.3.0.js" />
     <Content Include="Scripts\knockout.validation.debug.js" />
     <Content Include="Scripts\knockout.validation.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\multi_step_form.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\sammy-0.7.4.js" />
     <Content Include="Scripts\sammy-0.7.4.min.js" />
+    <Content Include="Scripts\trackingCode.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Scripts\app\_run.js" />
     <Content Include="Scripts\app\app.datamodel.js" />
@@ -359,6 +379,9 @@
     <Content Include="Views\Questions\FamilyResPer.cshtml" />
     <Content Include="Views\Questions\FamilyCPR.cshtml" />
     <Content Include="Views\Questions\FamilyTax.cshtml" />
+    <Content Include="Views\Questions\Continue.cshtml" />
+    <Content Include="Scripts\jsapi" />
+    <Content Include="Scripts\saved_resource" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

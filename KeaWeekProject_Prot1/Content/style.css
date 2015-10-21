@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+/* Above line is to import google font style */
+* {
+	font-family: "Gill Sans W04", "Gill Sans", serif !important;
+}
+.content{
+width:960px;
+margin:20px auto;
+}
+.main{
+float:left;
+width: 650px;
+height: 550px;
+}
+#progressbar{
+margin:0;
+padding:0;
+font-size:18px;
+}
+fieldset{
+display:none;
+width: 350px;
+padding:20px;
+margin-top:50px;
+margin-left: 130px;
+border-radius:5px;
+box-shadow: 3px 3px 25px 1px gray;
+}
+#first{
+display:block;
+width: 350px;
+padding:20px;
+margin-top:50px;
+border-radius:5px;
+margin-left: 130px;
+box-shadow: 3px 3px 25px 1px gray;
+}
+input {
+	font-size: 14pt;
+}
+input[type=text],
+input[type=password],
+select{
+width:100%;
+margin:10px 0;
+height:40px;
+padding:5px;
+border: 3px solid rgb(236, 176, 220);
+border-radius: 4px;
+}
+textarea{
+width:100%;
+margin:10px 0;
+height:70px;
+padding:5px;
+border: 3px solid rgb(236, 176, 220);
+border-radius: 4px;
+}
+input[type=submit],
+input[type=button]{
+margin:15px 0px;
+padding: 5px;
+height: 40px;
+width: 100%;
+background-color: #97D0AD;
+border: none;
+border-radius: 4px;
+color: white;
+}
+.pre_btn{
+	background-color: #97B9D0 !important;
+}
+h2,p{
+text-align:center;
+}
+.subtitle {
+	display: none;
+}
+li{
+margin-right:52px;
+color:#c1c5cc;
+}
+fieldset>ul>li {
+	list-style-type: square;
+	margin-left: 25px;
+	color: black;
+}
+fieldset>h2 {
+	font-size: 16pt;
+	padding-bottom: 8px;
+}
