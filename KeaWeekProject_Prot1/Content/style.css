@@ -67,7 +67,7 @@ border: none;
 border-radius: 4px;
 color: white;
 }
-.pre_btn{
+.sufficient_pre_btn, .worker_pre_btn, .student_pre_btn, .self_employed_pre_btn, .family_pre_btn, .pre_btn{
 	background-color: #97B9D0 !important;
 }
 h2,p{
