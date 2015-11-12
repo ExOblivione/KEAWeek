@@ -9,6 +9,7 @@ namespace KeaWeekProject_Prot1.Controllers
     {
         public ActionResult Index()
         {
+
             return View();
         }
     }
